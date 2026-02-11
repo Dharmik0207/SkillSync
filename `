@@ -1,1 +1,52 @@
+# SkillSync – AI Skill Matching & Career Recommendation System
+
+This project started as an idea: *What if resume screening and job matching could be automated using AI agents working together?*  
+SkillSync is my attempt to explore how multi-agent LLM systems can help match people with the right roles and suggest how they can improve their skills.
+
+---
+
+## 📌 About the Project
+Recruiters spend a lot of time manually reviewing resumes and comparing them with job descriptions.  
+With SkillSync, I built a small AI workflow that simulates an intelligent hiring assistant.
+
+The system can:
+- Read and understand a candidate’s skills
+- Analyze job requirements
+- Compare both and estimate job fit
+- Suggest missing skills and career improvements
+
+This project helped me learn how **multi-agent AI systems** can automate real HR workflows.
+
+---
+
+## ⚙️ Tech Stack
+- Python  
+- CrewAI (multi-agent orchestration)  
+- LLM integration  
+- Pandas & NumPy  
+- Jupyter Notebook  
+
+---
+
+## 🧠 How It Works
+The project uses multiple AI agents that collaborate:
+
+1. A **Skill Extraction Agent** identifies key skills from the input.
+2. A **Job Analysis Agent** understands job requirements.
+3. A **Matching Agent** compares both and calculates job fit.
+4. A **Recommendation Agent** suggests missing skills and career paths.
+
+---
+
+## 📈 What I Learned
+- Designing workflows using multi-agent AI
+- Applying Generative AI to real-world problems
+- Building automated pipelines using Python
+
+---
+
+## 🚀 Future Ideas
+- Add a simple web interface
+- Connect to real job portals
+- Improve scoring using embeddings
 
