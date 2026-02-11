@@ -1,0 +1,65 @@
+SkillSync 🚀
+
+AI Skill Gap Analyzer & Learning Roadmap Generator
+
+SkillSync is a small project I built to explore how multi-agent AI systems can help with career planning.
+
+The idea came from a simple problem:
+When we aim for a new job role, it’s hard to clearly know what skills we’re missing and what to learn next. SkillSync acts like a mini AI career assistant that helps answer those questions.
+
+It analyzes your current skills, compares them with a target role, and generates a step-by-step learning roadmap.
+
+Why I Built This
+
+Many students and professionals:
+
+Don’t know which skills matter most for a role
+
+Feel overwhelmed by what to learn next
+
+Spend hours researching learning paths
+
+I wanted to experiment with CrewAI multi-agent systems and build something practical that solves this problem automatically.
+
+What SkillSync Does
+
+SkillSync simulates a small team of AI agents working together:
+
+• One agent understands your current skills
+• One agent studies the job role requirements
+• One agent finds the skill gap
+• One agent creates a learning roadmap
+
+Together, they generate a structured plan to help you move toward your target role.
+
+How It Works (Behind the Scenes)
+
+The project uses CrewAI, which allows multiple AI agents to collaborate and complete tasks step by step.
+
+Each agent has a specific responsibility:
+
+Skill Analyst
+Takes your current skills and organizes them into structured categories.
+
+Job Analyst
+Understands the requirements of the role you want.
+
+Gap Detector
+Compares both and finds what’s missing.
+
+Roadmap Generator
+Creates a prioritized learning path based on the gaps.
+
+This workflow shows how multi-agent AI can solve real-world problems.
+
+Tech Stack
+
+Python
+
+CrewAI (Multi-Agent Framework)
+
+OpenAI API
+
+Jupyter Notebook (for experiments)
+
+Prompt Engineering
